@@ -1,0 +1,46 @@
+<html>
+  
+    <head>
+<style>
+    nav{
+        display: flex;
+        flex: 1;
+        
+    }
+    .dropdown{position: relative;}
+    nav div{
+        margin-left: 60px;
+        border: 1px;
+        border-color: rgb(0, 8, 8);
+        background-color: blue;
+        padding: 50px;
+
+    }
+    .submenuitems
+    {   left: 0;
+        top: 100%;
+        display: none;
+        position: absolute;
+    }
+    
+        .dropdown:hover {background-color:blue}
+    nav:hover .submenuitems{display: block; left:0;}
+</style>
+    </head>
+    <title>Dropdown Menu</title>
+    <body>
+     <div>
+        <nav>
+            <div>Home</div>
+            <div class="dropdown">Cource
+            <div class="submenuitems">
+                <a>Java</a>
+                <a>Css</a>
+            </div>
+            
+            </ul>
+          
+        </nav>
+     </div>
+    </body>
+</html>

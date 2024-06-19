@@ -1,0 +1,116 @@
+*{
+      margin:0px;
+      padding:0px;
+      box-sizing:border-box;
+  }
+
+ h1{
+      background-color: skyblue;
+      color: white;
+      font-size: 40px;
+      font-weight: 700;
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 60px;
+      display: block;
+
+ } 
+
+
+h4{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    text-decoration: underline;
+  }
+
+
+
+
+#outeer{
+     
+         width: 95%;
+         background-color: red; 
+         border: 2px;
+         margin:auto;
+         margin-bottom:10px;
+         border-radius: 15px 15px;
+       }
+       
+.text{
+       border: 3px solid black;
+       border-radius: 10px  10px; 
+       font-size:  20px; 
+       background-color:greenyellow;
+       width: 100%;
+       align-content: left;
+     }
+
+  .p2{
+       color:green;
+     }
+
+#serviceimage1{
+          box-sizing:border-box;
+          display:flex;
+          flex-wrap:wrap;
+          background-color:darkcyan;
+          /* width: 10%;
+          height:500px; */
+          top:300px;
+       }
+
+        .image{
+
+          width: 30%;
+          height: 30%;
+          padding:5px;
+          border:2px solid black;
+          background-color:grey;
+          display: block;
+          margin-top:20px;
+          margin-left:30px;
+          margin-bottom: 10px;
+          position:relative;
+          overflow:hidden;
+          overflow-y:scroll;
+          overflow-x:scroll;
+         }
+
+         .image img:hover{
+          transform:scale(1.3);
+         
+         }
+       .image img{
+        transition:transform 2s;
+        padding:50px 50px;
+        
+        
+        
+       }
+
+       
+        @media(max-width:574px){
+
+            .image{
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+                margin-right: 20px;
+            }
+        }
+
+
+        @media(max-width:767px){
+
+            .image{
+                display: flex;
+                flex-wrap: wrap;
+                width: 60%;
+                margin-left: 120px;  
+                
+
+            }
+           
+        }

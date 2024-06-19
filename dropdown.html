@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>dropdownmenu</title>
+<style type="text/css">
+     
+    .menu{
+        width: 1170px;
+        margin: auto;
+        background: red;
+
+    }
+    .menuitems{
+        float: left;
+        padding: 15px 25px;
+        border:2px solid green;
+        position:relative;
+    }
+    .clear{
+        clear: both;
+    }
+    
+    .submenuitems{
+        padding: 10px;
+        background-color: lightblue;
+        border: 2px solid red;
+    }
+    .submenu{
+
+        width: 130px;
+        background-color: green;
+        position: absolute;
+        left: 0;
+        top:100%;
+        display: none;
+
+    }
+    .menuitems:hover{
+        background-color:yellow;
+    }
+    .menuitems:hover .submenu{
+        display: block;
+    }
+</style>
+    </head>
+    <body>
+        <div class="menu">
+                       <div class="menuitems">home</div>
+                       <div class="menuitems">about</div>
+                       <div class="menuitems">courses
+                            <div class="submenu">
+                            <div class="submenuitems">php</div>
+                            <div class="submenuitems">java</div>
+                            <div class="submenuitems">c programming</div>
+                            <div class="submenuitems">python</div>
+                            <div class="submenuitems">java script</div>
+                        </div></div>
+                       <div class="menuitems">gallery</div>
+                       <div class="menuitems">contact us</div>
+                       <div class="menuitems">enquiry</div>
+                       <div class="clear"> </div>
+
+
+                       
+
+        
