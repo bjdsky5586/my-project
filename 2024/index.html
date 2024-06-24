@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Login Form Design</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+<body>
+    <div class="loginbox">
+      <img src="avatar.png" class="avatar">
+        <h1>User Login</h1>
+        <form>
+            <p>Username</p>
+            <input id = "userInput" type="text" name="" placeholder="Enter Username">
+            <p>Password</p>
+            <input type="password" name="" placeholder="Enter Password">
+            <button type="button" onclick = "move()" > send </button><br>
+            <input type="checkbox" id="test" />
+            <label for="test">Remember me</label> <br><br>
+            <a href="#">Lost your password?</a><br>
+            <a href="#">Don't have an account?</a>
+        </form>
+        
+        
+        
+        <script type="text/javascript">
+            function move() {
+                var inp = document.getElementById("userInput").value;
+                localStorage.setItem("input", inp);
+                location.href = "welcome.html";
+            };
+            
+        </script>
+    </div>
+    
+    
+
+</body>
+
+</html>

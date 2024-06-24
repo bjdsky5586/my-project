@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(pic.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+table{
+    
+    width: 320px;
+    height: 420px;
+    background: #000;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    background-color: rgba(0,0,0,0.5);  
+    border: 1px solid;
+    border-color: #ffc107
+}
+table th
+{
+    font-family:inherit;
+    font-size: 50px;
+    text-align: center;
+}
+#myText
+{
+    text-align: center;
+    font-family: cursive;
+    font-size:30px;
+    color:#ffc107;
+}
+.welcoming
+{
+    border: 1px solid;
+    border-bottom-color: #ffc107;
+}
+
+table button
+{
+    border: 4px;
+    height: 40px;
+    background-color: #ffc107;
+    border-radius: 20px;
+    padding: 10px 50px;
+    font-size: 18px;
+    color: #000;
+}
+table button:hover
+{
+    cursor: pointer;
+    background: dimgray;
+    color: #fff;
+}
